@@ -1,0 +1,8 @@
+services:
+  web:
+    public: true
+    image: okteto.dev/ray:golang
+    replicas: 1
+    ports:
+      -8080
+      
